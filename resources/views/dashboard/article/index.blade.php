@@ -10,7 +10,7 @@
         @foreach ($articles as $article)
             <div class="col-md-4 col-lg-4">
                 <div class="card mb-4">
-                    <img src="{{ asset('image/'.$article->image) }}" class="card-img-top" alt="...">
+                    <img src="{{ asset('image/'.$article->image) }}" class="card-img-top" alt="..." style="max-height: 350px;">
                     <div class="card-body">
                       <h5 class="card-title">{{ $article->title }}</h5>
                       <p class="card-text">{{ $article->content }}</p>

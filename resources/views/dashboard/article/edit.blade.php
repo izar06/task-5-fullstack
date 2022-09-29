@@ -29,7 +29,7 @@
                   <label for="content" class="form-label">Content</label>
                   <textarea name="content" id="content" cols="20" rows="5" class="form-control">{{ $articles->content }}</textarea>
               </div>
-              <div class="mb-3" style="max-width: 400px;">
+              <div class="mb-3" style="max-height: 350px;">
                 <label for="file" class="form-label">Upload image</label>
                 <input class="form-control" type="file" name="image" id="file" required>
               </div>
